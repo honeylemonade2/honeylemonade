@@ -1,0 +1,15 @@
+# a path:
+/templates/index.html
+  # headers for that path:
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+# another path:
+/.well-known/stellar.toml
+  # headers for that path:
+  X-Frame-Options: SAMEORIGIN
+  /*
+  Access-Control-Allow-Origin: *
+
+  /.well-known/stellar.toml
+  Content-type: text/plain"
