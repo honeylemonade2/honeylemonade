@@ -135,7 +135,7 @@ p {
     font-size: 13px
 }
 
-.top-background img{
+.top-background img {
     position: absolute;
     top: 0;
     pointer-events: none;
